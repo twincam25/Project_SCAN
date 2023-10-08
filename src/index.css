@@ -1,0 +1,49 @@
+:root{
+  --turquoise-color: #029491;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --gold-color: #FFB64F;
+  --light-turquoise-color: #7CE3E1;
+  --light-blue-color: #5970FF;
+}
+
+@font-face {
+  font-family: "Ferry";
+  src: url(./fonts/ferry_black.otf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#root{
+  min-height: 100vh;
+  position: relative;
+}
+
+main{
+  width: 100%;
+  margin-bottom: 137px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: calc(100% - 120px);
+}
+@media (max-width: 768px){
+  .container{
+    width: calc(100% - 40px);
+  }
+}

@@ -1,0 +1,169 @@
+.rate-card{
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    flex-basis: 415px;
+    margin-bottom: 40px;
+}
+
+.signed{
+    border: 2px solid;
+}
+
+.rate-card-main{
+    margin: 0 30px 24px 30px;
+}
+@media (max-width: 475px){
+    .rate-card-main{
+        margin: 0 24px 30px;
+    }
+}
+
+.rate-card-header{
+    padding: 30px 30px 34px;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+}
+
+.price-containder{
+    margin: 33px 8px 60px 30px;
+    min-height: 70px;
+    position: relative;
+}
+@media (max-width: 475px){
+    .price-containder{
+        min-height: initial;
+        margin: 20px 24px 35px;
+    }
+}
+
+.rate-card-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+@media (max-width: 375px){
+    .rate-card-title{
+        font-size: 25px;
+    }
+}
+
+.rate-card-text{
+    font-size: 18px;
+}
+@media (max-width: 475px){
+    .rate-card-text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px){
+    .rate-card-text{
+        font-size: 14px;
+    }
+}
+
+
+.rate-card-tag{
+    position: absolute;
+    right: 0;
+    top: -25px;
+    background-color: #3BA5E0;
+    color: var(--white-color);
+    padding: 4px 13px;
+    border-radius: 10px;
+}
+@media (max-width: 475px){
+    .rate-card-tag{
+        display: none;
+    }
+}
+
+.rate-card-icon{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 93px;
+}
+@media (max-width: 475px){
+    .rate-card-icon{
+        width: 73px;
+    }
+}
+@media (max-width: 375px){
+    .rate-card-icon{
+        width: 54px;
+    }
+}
+
+.rate-card-list{
+    list-style-image: url('../../img/rate_check_mark.svg');
+    padding-left: 25px;
+    letter-spacing: .14px;
+    margin-bottom: 55px;
+}
+@media (max-width: 475px){
+    .rate-card-list{
+        margin-bottom: 40px;
+    }
+}
+
+.rate-card-list li{
+    margin: 5px 0;
+}
+
+.rate-card-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: -25px;
+}
+@media (max-width: 375px){
+    .rate-card-list-title{
+        font-size: 16px;
+    }
+}
+
+.rate-card-main .rate-card-title{
+    display: flex;
+    align-items: center;
+}
+
+.old-price{
+    font-size: 25px;
+    text-decoration-line: line-through;
+    opacity: .5;
+    margin-left: 20px;
+}
+@media (max-width: 375px){
+    .old-price{
+        font-size: 20px;
+    }
+}
+
+.rate-card .button{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .14px;
+}
+@media (max-width: 475px){
+    .rate-card .button{
+        font-size: 18px;
+    }
+}
+@media (max-width: 375px){
+    .rate-card .button{
+        font-size: 14px;
+    }
+}
+
+.rate-card.signed .button{
+    background-color: #d2d2d2;
+    color: #000000;
+}
+.rate-card.signed .button:hover{
+    background-color: #b5b4b4;
+}
+.rate-card.signed .button:active{
+    background-color: #9d9d9d;
+}
